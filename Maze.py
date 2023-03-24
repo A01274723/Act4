@@ -1,3 +1,4 @@
+# Reviewed with flake8(ignore error 403, 405)
 """Maze, move from one side to another.
 
 Excercises
@@ -46,4 +47,4 @@ hideturtle()
 tracer(False)
 draw()
 onscreenclick(tap)
-done()
+done()  # Error W292 fixed: add new line at end of file
